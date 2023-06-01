@@ -1,0 +1,140 @@
+.layout__container {
+    min-height: 100%;
+    margin-bottom: -20vh;
+    padding-bottom: 20vh;
+}
+.layout__main {
+    padding-bottom: 20vh;
+}
+.layout__header {
+    position: relative;
+    top: 0;
+    height: 30vh;
+    width: 100%;
+}
+.header-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background-color: #DD1A1A;
+}
+.header-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background-color: #0C0C0C;
+}
+.header-img {
+    position: absolute;
+    top: 47.5%;
+    left: 85%;
+    width: 10%;
+    height: 10%;
+}
+.header-pokedex {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+}
+.header-pokedex img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.header__home {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #DD1A1A;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.header__home:hover {
+    transform: scale(1.1);
+}
+.header__home img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.layout__footer {
+    position: relative;
+    height: 20vh;
+    width: 100%;
+}
+.footer-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #DD1A1A;
+  }
+.footer-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #0C0C0C;
+}
+.footer-img {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    width: 5%;
+    height: 5%;
+}
+.footer-text1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);
+    font-size: 25px;
+    color: white;
+}
+.footer-text2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-75%, -50%);
+    font-size: 25px;
+    color: white;
+}
+@media (max-width: 450px) {
+    .layout__container {
+        max-width: 100%;
+    }
+    .header-pokedex {
+        top: 35%;
+        width: 75%;
+    }
+    .layout__header {
+        height: 15vh;
+    }
+    .header-img {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        width: 20%;
+        height: 20%;
+    }
+    .header__home {
+        top: 5px;
+        right: 5px;
+    }
+}

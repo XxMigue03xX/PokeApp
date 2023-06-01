@@ -1,0 +1,17 @@
+.pagination-container {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.btn {
+    background: #DD1A1A;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+.buttons {
+    background: white;
+    border-radius: 6px;
+    border: none;
+}
