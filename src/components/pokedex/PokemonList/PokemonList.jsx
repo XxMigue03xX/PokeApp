@@ -10,7 +10,7 @@ const PokemonList = ({ pokemons }) => {
     const [ currentPage, totalPages, pokemonsSlice, changePageTo ] = usePagination(pokemons, pokemonsPerPage);
 
     return (
-      <secrtion>
+      <section>
         <PagesComponent
           totalPages={totalPages}
           onChangePage={changePageTo}
@@ -36,7 +36,7 @@ const PokemonList = ({ pokemons }) => {
           onBackPage={() => changePageTo(currentPage - 1)}
           currentPage={currentPage}
         />
-      </secrtion>
+      </section>
     );
 }
 
